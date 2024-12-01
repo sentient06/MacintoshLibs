@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "controldefinitions.h": "c",
+        "standardfile.h": "c",
+        "macerrors.h": "c",
+        "stdbool.h": "c",
+        "lfiles.h": "c",
+        "textutils.h": "c",
+        "lowmem.h": "c",
+        "controls.h": "c"
+    }
+}
