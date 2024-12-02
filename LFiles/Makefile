@@ -44,5 +44,6 @@ install:
 	mkdir -p ../../Pinakes/libs/LFiles/include/
 	cp $(LIBRARY) ../../Pinakes/libs/LFiles/lib/
 	cp include/LFiles.h ../../Pinakes/libs/LFiles/include/
+	cp include/LFiles.r ../../Pinakes/libs/LFiles/include/
 
 .PHONY: all clean install
