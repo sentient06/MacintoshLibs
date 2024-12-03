@@ -1,5 +1,13 @@
 # Files Library
 
+## Building
+
+1. Install [Retro68](https://github.com/autc04/Retro68);
+2. `cd` into this directory;
+3. `make clean`
+4. `make`
+5. `make install`
+
 ## Namespace `LFiles`
 
 ### Functions
