@@ -40,10 +40,10 @@ clean:
 	rm -rf $(BUILDDIR)/*.a $(SRCDIR)/*.o
 
 install:
-	mkdir -p ../../Pinakes/libs/LFiles/lib/
-	mkdir -p ../../Pinakes/libs/LFiles/include/
-	cp $(LIBRARY) ../../Pinakes/libs/LFiles/lib/
-	cp include/LFiles.h ../../Pinakes/libs/LFiles/include/
-	cp include/LFiles.r ../../Pinakes/libs/LFiles/include/
+	mkdir -p ../../Pinax/libs/LFiles/lib/
+	mkdir -p ../../Pinax/libs/LFiles/include/
+	cp $(LIBRARY) ../../Pinax/libs/LFiles/lib/
+	cp include/LFiles.h ../../Pinax/libs/LFiles/include/
+	cp include/LFiles.r ../../Pinax/libs/LFiles/include/
 
 .PHONY: all clean install
